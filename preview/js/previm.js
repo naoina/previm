@@ -6,6 +6,9 @@
                    .use(_win.markdownitAbbr)
                    .use(_win.markdownitDeflist)
                    .use(_win.markdownitFootnote)
+                   .use(_win.markdownitGithubTOC, {
+                     tocLastLevel: 3
+                   })
                    .use(_win.markdownitSub)
                    .use(_win.markdownitSup)
                    .use(_win.markdownitCheckbox);
